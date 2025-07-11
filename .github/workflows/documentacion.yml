@@ -6,8 +6,8 @@ jobs:
   compila:
     runs-on: ubuntu-latest
     steps:
-      - name: saludar
-        uses: sandroquinonesdb/My-First-JS-ACTION-BY-ME@v1.0
+      - name: My First JS ACTION BY ME
+        uses: sandroquinonesdb/My-First-JS-Action-by-me@v1.0
         with:
           who-to-greet: david
       - name: Checkout
