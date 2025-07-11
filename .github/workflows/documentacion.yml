@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: saludar
-        uses: @sandroquinonesdb/My-First-JS-Action-by-me@v1.0
+        uses: sandroquinonesdb/My First JS ACTION BY ME@v1.0
         with:
           who-to-greet: david
       - name: Checkout
