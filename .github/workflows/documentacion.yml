@@ -6,6 +6,10 @@ jobs:
   compila:
     runs-on: ubuntu-latest
     steps:
+      - name: saludar
+        uses: sandroquinonesdb/My-First-JS-Action-by-me@v1.0
+        with:
+          who-to-greet: david
       - name: Checkout
         uses: actions/checkout@v4.2.2
       - name: setup .net core sdk
